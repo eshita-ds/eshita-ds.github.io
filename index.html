@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshita's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+         <img src="./assets/images/Eshita.jpg" alt="Eshita Gupta" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Eshita Gupta">Eshita Gupta</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:gupta.eshita01@gmail.com" class="contact-link">gupta.eshita01@gmail.com</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+16695776251" class="contact-link">+1 (669) 577 6251</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sunnyvale , CA, USA</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="document-text"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Resume</p>
+
+              <a href="./assets/files/Eshita_DS_N.pdf" class="contact-link">Download</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/guptaeshita15/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/eshita-ds" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>I am a data science professional with strong domain experience in the financial services industry. 
+            I have built E2E solutions—from predictive models and NLP systems to interactive dashboards and automated pipelines—that 
+            drive measurable business impact. </p>
+  
+          <h3>Background : </h3>
+          <br>
+          <p>
+            • Experienced Data Scientist with over 3 years of experience in data science and analytics roles at Canara Bank.<br>
+            • Strong foundation in mathematics and applied data science, with large-scale ML and AI deployment expertise.<br>
+            • Master’s in Applied Data Science from San Jose State University (<i>magna cum laude</i>., May 2025).<br>
+            • Google Certified Professional Data Analyst.<br>
+            • Proficient in SQL, Python, Spark, Hadoop, AWS and Tableau.
+          </p>
+
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Professional Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-science.png
+                " alt="Web design icon" width="50   ">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Building advanced machine learning models that predict outcomes, automate decisions, and solve complex business problems.</p>
+              </div>
+
+            </li>
+
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-analysis.png" alt="Data analysis icon" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Uncovering trends and patterns in complex datasets to answer critical business questions and guide data-driven strategies.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-eng.png" alt="ML icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+
+                <p class="service-item-text">
+                  Building reliable data pipelines and infrastructure that move, transform, and store data at scale.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/gen-ai.png
+                " alt="Web design icon" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI</h4>
+
+                <p class="service-item-text">
+                  Harnessing LLMs and generative models to build systems that create, reason, and solve problems autonomously.</p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">San Jose State University</h4>
+
+              <p class="timeline-text">
+                Master of Science in Applied Data Science
+              </p> 
+
+              <span>August  2023 — May 2025</span>
+
+              <p class="timeline-text">
+                <b>GPA : </b> 3.86 (<i>Magna Cum Laude</i>)
+                </p>
+
+              <p class="timeline-text">
+                <b>Relevent Coursework : </b> Data Structures & Algorithms, Object Oriented programming, Distributed Computing Systems, Database
+Management System, Machine Learning, Deep Learning, Big Data, Data Mining, Artificial Intelligence (AI)
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Motilal Nehru National Institute of Technology</h4>
+
+              <p class="timeline-text">
+                Master of Science in Mathematics & Computer Science
+              </p>
+
+              <p class="timeline-text">
+                <b>GPA : </b> 3.76
+                </p>
+
+              <p class="timeline-text">
+                <b>Relevent Coursework : </b> Probability & Statistics, Optimization, Mathematical Modeling & Simulation, Statistical Simulation & Data Analysis, Financial Mathematics, Data Structures & Programming Languages.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dayabagh Educational Institute</h4>
+
+              <p class="timeline-text">
+                Bachelor of Science in Mathematics
+              </p>
+
+              <p class="timeline-text">
+                <b>GPA : </b> 3.67
+                </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+        
+          <div class="skills-list content-card" style="display: flex; flex-wrap: wrap; gap: 20px;">
+        
+            <div class="skills-box" style="flex: 1; min-width: 200px; background-color: #1e1e1e; padding: 20px; border-radius: 10px;">
+              <h4 class="h5 skills-box-title">Programming Languages</h4>
+              <ul>
+                <li class="skills-item">
+                  <h5 class="h5">
+                <img src="https://img.shields.io/badge/-SQL-000?&logo=MySQL&logoColor=4479A1" 
+       alt="SQL Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;">
+                </h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5">
+                <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5">
+                <img src="https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                
+              </ul>
+            </div>
+
+       
+            <div class="skills-box" style="flex: 1; min-width: 200px; background-color: #1e1e1e; padding: 20px; border-radius: 10px;">
+              <h4 class="h5 skills-box-title">Analysis and Visualization</h4>
+              <ul>
+                <li class="skills-item">
+                  <h5 class="h5">
+                    <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;">
+                </h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://custom-icon-badges.demolab.com/badge/Tableau-0176D3?logo=tableau&logoColor=fff" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/-Seaborn-3776AB?style=flat&logo=python&logoColor=white&size=40x40" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+               
+              </ul>
+            </div>
+
+            <div class="skills-box" style="flex: 1; min-width: 200px; background-color: #1e1e1e; padding: 20px; border-radius: 10px;">
+              <h4 class="h5 skills-box-title">ETL and Big Data</h4>
+              <ul>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+              </ul>
+            </div>
+        
+            <div class="skills-box" style="flex: 1; min-width: 200px; background-color: #1e1e1e; padding: 20px; border-radius: 10px;">
+              <h4 class="h5 skills-box-title">DMBS & Cloud</h4>
+              <ul>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://custom-icon-badges.demolab.com/badge/Oracle%20Cloud-F80000?logo=oracle&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" 
+       alt="Python Badge" 
+       style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+              </ul>
+            </div>
+        
+            <div class="skills-box" style="flex: 1; min-width: 200px; background-color: #1e1e1e; padding: 20px; border-radius: 10px;">
+              <h4 class="h5 skills-box-title">Data Science</h4>
+              <ul>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+              </ul>
+            </div>
+        
+            <div class="skills-box" style="flex: 1; min-width: 200px; background-color: #1e1e1e; padding: 20px; border-radius: 10px;">
+              <h4 class="h5 skills-box-title">Software Development</h4>
+              <ul>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+                <li class="skills-item">
+                  <h5 class="h5"><img src="https://img.shields.io/badge/Anaconda-44A833?logo=anaconda&logoColor=fff)" alt="Python Badge" style="height:30px; vertical-align:middle; margin-left:6px;"></h5>
+                </li>
+              </ul>
+            </div>
+
+                    
+          </div>
+        
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Deep Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Generative AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analytics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Engineering</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Deep Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Generative AI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analytics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Engineering</button>
+              </li>
+
+          </div>
+
+
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/eshita-ds/Data-Mining-Projects/tree/main/Food-Insecurity-Analysis" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/049530a7-1916-46ad-a394-bab97c97c07d" alt="Food Insecurity" loading="lazy" height="150px">
+                </figure>
+
+                <h3 class="project-title">A study into Food Insecurity and Resource Allocation</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="https://github.com/eshita-ds/Big-Data-Projects/tree/main/Social-Media-Listening-for-Reddit-Comments" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/46e94ef0-f7b5-4859-8c66-fa7ae4383c38" alt="Social Media Listening" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Social Media Listening for Reddit Comments</h3>
+
+                <p class="project-category">Data Engineering</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/eshita-ds/Machine-Learning-Projects/tree/main/Amazon-Review-Helpfulness-using-TFIDF" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/09c7613b-01ed-4825-ac39-ad01fc3e65c5" alt="Amazon Product Reviews" loading="lazy" height="150px">
+                </figure>
+
+                <h3 class="project-title">Harnessing Helpfulness: Amazon Product Reviews to Elevate Marketplace Experience</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="https://github.com/eshita-ds/DBMS-Projects/tree/main/Interactive-BikeStore-App-using-pyQT" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/2d3a12b3-7449-44e2-8828-381d4bdbab81" alt="TerraBikes" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TerraBikes: Interactive BikeStore Management Application</h3>
+
+                <p class="project-category">Data Engineering</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://github.com/eshita-ds/Neural-Networks/tree/main/Text_Toxicity_classification_using_LSTM_and_BILSTM" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/235b62b6-7d08-4aee-a33a-da085728eb44" alt="Text Toxicity classification" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Text Toxicity classification using LSTM and BiLSTM</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/eshita-ds/Machine-Learning-Projects/tree/main/IoT-Devices-Network-Anomaly-Detection" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/8269c152-175b-4404-8dc1-33fa57f6d708" alt="IoT Devices Network Anomaly Detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IoT Devices Network Anomany Detection using Machine Learning</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://github.com/eshita-ds/Neural-Networks/tree/main/Anime_recommender_system_using_wide_and_deep_learning_models" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/a1b6ca74-65af-4c09-a30a-99befbe3a3a6" alt="Anime Recommender System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Anime recommender system using Wide and Deep learning models</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://github.com/eshita-ds/Computer-Vision/tree/main/Road_Sign_Detection_using_Custom_FastRCNN_and_YoloV8" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/3cc5265f-25dd-452a-93d6-654a835ce4b5" alt="Road Sign detection using Custom Fast-RCNN and Yolo V8" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Road Sign detection using Custom Fast-RCNN and Yolo V8</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/eshita-ds/Neural-Networks/tree/main/Child_Mind_Institute_PIU_Detection_using_ML_and_DL" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/f4c789c2-a714-4a57-92f7-6f07d18f719f" alt="Paraphrase detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Child Mind Institute: Problematic Internet Usage Detection</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>            
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://github.com/eshita-ds/Computer-Vision/tree/main/Object_Detection_in_Street_Scenes_with_RCNN_and_Detectron" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/b5abf8c5-56c0-474a-9f0b-ef93fcac6c7b" alt="Object Detection in a random Street Video with RCNN and Detectron" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Object Detection in a random Street Video with RCNN and Detectron</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="generative ai">
+              <a href="https://github.com/eshita-ds/LLM-Tuning-for-COT-Reasoning" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/724f04bf-9514-4d59-ba0c-cb422ad78aef" alt="Capstone Project: LLM Tuning for Chain of Thought Reasoning" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Capstone Project: LLM Tuning for Chain of Thought Reasoning</h3>
+
+                <p class="project-category">Generative AI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="generative ai">
+              <a href="https://github.com/eshita-ds/NLP-and-LLM/tree/main/Interactive_Chatbot_Creation_and_Task_Automation_with_OpenAI" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/c9626b61-0c35-4831-891f-cd9cb8e4ea0c" alt="Interactive Chatbot creation and Task automation with OpenAI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Interactive Chatbot creation and Task automation with OpenAI</h3>
+
+                <p class="project-category">Generative AI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="generative ai">
+              <a href="https://github.com/eshita-ds/NLP-and-LLM/tree/main/Training_QnA_model_using_BERT_on_SQUAD_dataset" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/b6d70952-fada-42cd-afe3-782a2e33edea" alt="Training a Question and Answer model using BERT on SQUAD dataset" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Training a Question and Answer model using BERT on SQUAD dataset</h3>
+
+                <p class="project-category">Generative AI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://github.com/eshita-ds/Neural-Networks/tree/main/Image_classification_using_Custom_CNN_models_and_tuning" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github.com/user-attachments/assets/275b94db-ea2d-41f1-bf0d-fc653ef28f21" alt="Sports Image classification using Custom CNN models and Fine Tuning" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sports Image classification using Custom CNN models and Fine Tuning</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/eshita-ds/Data-Visualization-Projects/tree/main/Study-on-Infant-Mortality-using-Tableau" target="_blank">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+
+                  <img src="https://github.com/user-attachments/assets/6fee93dc-5462-4ba4-b1e2-0a25f972c165" alt="Infant Mortality" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Extinguished Lights: A Visual deep dive into Infant Mortality</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+      
+        <section class="contact-form">
+      
+          <h3 class="h3 form-title">Contact Form</h3>
+      
+          <form action="mailto:saklechasourab@gmail.com" method="POST" enctype="text/plain" class="form" id="contact-form">
+      
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+      
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+      
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+      
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+      
+          </form>
+      
+        </section>
+      
+      </article>
+      
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
